@@ -171,7 +171,13 @@ Quantity must be in dispensing units (tablets, mL, patches). Buprenorphine for o
 
 If you use this package, please cite:
 
-> [Author name]. pdemeds: medication exposure from pharmacy and medical claims in Stata. Version 1.0.0, 2026. https://github.com/BrookMartin/pdemeds
+> Martin BI. pdemeds: medication exposure from pharmacy and medical claims in Stata. Version 1.0.0. University of Utah; 2026. https://github.com/BrookMartin/pdemeds
+
+## Author
+
+Brook I. Martin, PhD MPH, University of Utah
+
+Please report problems or suggestions through [GitHub issues](https://github.com/BrookMartin/pdemeds/issues).
 
 ## License
 

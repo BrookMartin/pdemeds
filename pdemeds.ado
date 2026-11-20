@@ -1,12 +1,14 @@
-*! pdemeds 1.0.0  16nov2026
-*! Medication-class exposure from pharmacy claims (e.g. Medicare PDE files) claims in
+*! pdemeds 1.0.0  20nov2026
+*! Brook I. Martin, PhD MPH, University of Utah
+*! https://github.com/BrookMartin/pdemeds
+*! Medication-class exposure from pharmacy dispensing claims in
 *! user-defined windows around an index date. Works with any cohort.
 *!
 *! Quick start
 *!   pdemeds, listclasses                       // built-in class library
 *!   pdemeds, exportclasses(myclasses.csv)      // edit / extend, pass back via deffile()
 *!   use cohort, clear                          // one row per episode
-*!   pdemeds, files(PDE16 PDE17 PDE18) id(link) index(indexadm)   ///
+*!   pdemeds, files(rx16 rx17 rx18) id(link) index(indexadm)      ///
 *!            classes(opioid nsaid gabapentinoid)                  ///
 *!            windows(pre:-90/-1 post:0/90 yr:0/365)               ///
 *!            stats(any n days first mme mmeday pdc)

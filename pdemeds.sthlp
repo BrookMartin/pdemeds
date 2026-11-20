@@ -283,6 +283,15 @@ Source, documentation and issue tracker: {browse "https://github.com/BrookMartin
 {p2colreset}{...}
 
 
+{title:Author}
+
+{pstd}
+Brook I. Martin, PhD MPH{break}
+University of Utah{break}
+{browse "https://github.com/BrookMartin/pdemeds"}{break}
+Please report problems or suggestions at {browse "https://github.com/BrookMartin/pdemeds/issues"}.
+
+
 {title:Also see}
 
 {psee}

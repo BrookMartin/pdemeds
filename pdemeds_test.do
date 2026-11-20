@@ -1,4 +1,5 @@
 *! pdemeds_test.do  1.0.0  20nov2026
+*! Brook I. Martin, PhD MPH, University of Utah
 /*==============================================================================
   Synthetic test suite for pdemeds, pbmeds and pdemme.
   Uses only made-up data built below (no Medicare data).

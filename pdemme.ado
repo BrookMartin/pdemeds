@@ -1,6 +1,8 @@
-*! pdemme 1.0.0  16nov2026
-*! Morphine milligram equivalents (MME) per dispensed unit, from Pharmacy claims
-*! (e.g. Medicare PDE) using generic name (gnn) and strength text (str).
+*! pdemme 1.0.0  20nov2026
+*! Brook I. Martin, PhD MPH, University of Utah
+*! https://github.com/BrookMartin/pdemeds
+*! Morphine milligram equivalents (MME) per dispensed unit, from pharmacy
+*! claims generic name (gnn) and strength text (str).
 *!
 *! Syntax:
 *!   pdemme , gnn(varname) strength(varname) generate(newvar)

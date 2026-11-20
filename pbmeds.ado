@@ -1,10 +1,12 @@
-*! pbmeds 1.0.0  16nov2026
-*! Physician-/facility-administered drug exposure from provider procedure 
-*! claims files (e.g. Medicare Part B carrier line) and outpatient revenue-center 
-*! claims, by HCPCS code, in windows around an index date. Companion to pdemeds (same windows, class
+*! pbmeds 1.0.0  20nov2026
+*! Brook I. Martin, PhD MPH, University of Utah
+*! https://github.com/BrookMartin/pdemeds
+*! Provider-administered drug and procedure exposure from medical claims
+*! (professional and facility claim lines), by HCPCS/CPT code, in
+*! windows around an index date. Companion to pdemeds (same windows, class
 *! names, and an option to combine with pdemeds results).
 *!
-*!   pbmeds, files(LINEB16 LINEB17 OPREV16 OPREV17) id(link) index(indexadm) ///
+*!   pbmeds, files(prof16 prof17 facility16 facility17) id(link) index(indexadm) ///
 *!           classes(dmard_bio dmard_tnf cortico_inj) windows(pre:-180/-1 post:0/90) ///
 *!           stats(any n first) combine(rx_)
 *!

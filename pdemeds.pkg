@@ -26,7 +26,7 @@ d -net get pdemeds, from(https://raw.githubusercontent.com/BrookMartin/pdemeds/m
 d downloads the synthetic test suite (pdemeds_test.do) and CSV templates of
 d the class libraries.
 d
-d Author: [Author name], [Affiliation]
+d Author: Brook I. Martin, PhD MPH, University of Utah
 d Support: https://github.com/BrookMartin/pdemeds/issues
 d
 d Distribution-Date: 20261120
