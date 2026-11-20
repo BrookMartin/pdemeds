@@ -1,0 +1,43 @@
+v 3
+d pdemeds: medication-class exposure from pharmacy and medical claims
+d
+d pdemeds  - flags medication classes from pharmacy dispensing claims in
+d            user-defined windows around an index date: any use, fills,
+d            days supplied, quantity, first/last fill, days covered,
+d            proportion of days covered, and opioid MME (total, average
+d            daily, peak). Built-in library of about 50 classes (opioids,
+d            NSAIDs, gabapentinoids, benzodiazepines, antidepressants,
+d            corticosteroids, bone agents, diabetes, anticoagulants, DMARDs,
+d            cardiovascular, ...), editable through a CSV file.
+d pbmeds   - provider-administered drugs and procedures from medical claims
+d            by HCPCS/CPT code (biologic DMARDs, infusions, injectable
+d            steroids, epidural steroid injections, IV bone agents), with an
+d            option to combine results with pdemeds.
+d pdemme   - morphine milligram equivalents per dispensed unit from generic
+d            drug name and strength text (CDC 2022 or 2016 factors).
+d
+d Works with any claims or dispensing data that have the required fields:
+d Medicare, commercial, Medicaid, health-system/EHR records. Default
+d variable names are the CMS CCW Medicare names; every name can be set
+d with an option. Requires Stata 16 or later. Contains no patient data.
+d
+d After installing,
+d -net get pdemeds, from(https://raw.githubusercontent.com/BrookMartin/pdemeds/main/)-
+d downloads the synthetic test suite (pdemeds_test.do) and CSV templates of
+d the class libraries.
+d
+d Author: [Author name], [Affiliation]
+d Support: https://github.com/BrookMartin/pdemeds/issues
+d
+d Distribution-Date: 20261120
+d License: MIT
+d
+f pdemeds.ado
+f pdemeds.sthlp
+f pbmeds.ado
+f pbmeds.sthlp
+f pdemme.ado
+f pdemme.sthlp
+f pdemeds_test.do
+f pdemeds_classes.csv
+f pbmeds_classes.csv

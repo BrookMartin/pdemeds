@@ -1,0 +1,4 @@
+v 3
+d Medication exposure from pharmacy and medical claims (Medicare, commercial, Medicaid, EHR)
+d Commands: pdemeds (pharmacy claims), pbmeds (HCPCS/CPT medical claims), pdemme (MME)
+p pdemeds Medication classes, MME, PDC and DMARDs from pharmacy and medical claims
